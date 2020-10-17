@@ -16,6 +16,9 @@
             },
             "args": [],
         },
+        // You could pair this configuration with an exec configuration that runs Terraform as
+        // a compound launch configuration:
+        // https://code.visualstudio.com/docs/editor/debugging#_compound-launch-configurations
         {
             "name": "Debug - Attach External CLI",
             "type": "go",
